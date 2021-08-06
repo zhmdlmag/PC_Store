@@ -1,0 +1,10 @@
+<div class="small-container">
+  <form [formGroup]="form" (submit)="submit()" class="box" action="index.html" method="post">
+    <h1>Sign up</h1>
+    <input [(ngModel)]="email" (keyup.enter)="onKeyUp()" formControlName="name" type="email" name ="" placeholder="Email" >
+    <input [(ngModel)]="name" (keyup.enter)="onKeyUpName()" formControlName="email" type="name" name ="" placeholder="Username" >
+    <input formControlName="password" type="password" name="" placeholder="Password">
+    <input (click)="onKeyUpName(); onKeyUp()" type="submit" name ="" value="Login">
+  </form>
+</div>
+

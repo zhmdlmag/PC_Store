@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+p{
+  color:black;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col2 img{
+  max-width: 80%;
+  padding: 50px 0px;
+}
+
+.col2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 30px ;
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background: #563434;
+}
+
+.header{
+  background: rgb(75, 123, 205);
+}
+
+.testimonial{
+  padding: 100px;
+
+}
+
+.testimonial .col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+  font-size: 34px;
+  color: #ff523b;
+}
+
+.fa.fa-star{
+  color: #ff523b;
+}
+
+.fa.fa-star-o{
+  color: #ff523b;
+}
+
+.col-3 p{
+  font-size: 14px;
+  margin: 12px 0;
+
+}
+
+.testimonial .col-3 h3{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.col-3{
+  height: 380px;
+}
+
+.brands{
+  margin: 100px auto;
+}
+
+.col-5{
+  width: 160px;
+}
+
+.col-5 img{
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+  filter: grayscale(0%);
+}
+
+.small-container1{
+  display: flex;
+  padding-right: 150px;
+  padding-left: 20px;
+}
+
+.col-5 {
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.brands h2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -100px;
+}
+
+.title{
+  text-align: center;
+  margin: 50px auto 50px;
+  position: relative;
+  line-height: 60px;
+  color: black;
+}
+
+.title:after{
+  content: '';
+  background: #ff523b;
+  width: 150px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slogan{
+  color: white;
+}

@@ -1,0 +1,19 @@
+<div class="small-container">
+  <h1 class="title" >GPUs List</h1>
+  <div>
+    <div class="row">
+      <div *ngFor="let post of posts" class="col-4">
+        <img src="{{post.img_url}}" alt="gpu">
+        <h4>{{post.title}}</h4>
+        <button (click)="onSave(post.title, post.price)" class="buy" type="submit">{{post.price | currency: 'USD'}}</button>
+        <h5></h5>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+        <p>{{post.body}}</p>
+      </div>
+    </div>
+  </div>
+</div>

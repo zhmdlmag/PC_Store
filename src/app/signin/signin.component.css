@@ -1,0 +1,44 @@
+.box{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.box input[type = "name"], input[type = "email"], .box input[type = "password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(75, 123, 205);
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(75, 123, 205);
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.box input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ff523b;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+  background: #ff523b;
+}
+
+h1{
+  padding-top: 30px;
+}
+
+
